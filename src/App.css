@@ -1,0 +1,40 @@
+/* <style> */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/* </style> */
+* {
+  cursor: none;
+}
+body,
+html {
+  border: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.App {
+  /* color: aqua */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: pink;
+}
+
+.title {
+  font-family: "Poppins";
+  font-size: 10rem;
+}
+
+.cursor {
+  background-color: #111;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
